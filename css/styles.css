@@ -1,0 +1,118 @@
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.mainContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.container {
+  width: 661px;
+  height: 400px;
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.subContainer {
+  width: 50%;
+  max-width: 50%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.flex-center-h {
+  justify-content: center;
+}
+.flex-center-v {
+  align-items: center;
+  align-content: center;
+}
+.backgroundGradient {
+  background: linear-gradient(180deg, #74d3ff 0%, #09e7d8 100%), #3bddea;
+  border-radius: 0px 20px 20px 0px;
+  color: #fff;
+}
+.formCotainer {
+  padding: 30px 45px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  color: #808080;
+}
+input {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  height: 50px;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+.smallInputsContainer {
+  width: 240px;
+  max-width: 240px;
+  display: flex;
+  justify-content: space-between;
+}
+.fechaExpContainer {
+  width: 128px;
+  margin-right: 16px;
+}
+.fechaExpInput {
+  width: 128px;
+}
+.cvvContainer {
+  width: 70px;
+}
+.cvvInput {
+  width: 70px;
+}
+.priceImageContainer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.title {
+  font-size: 18px;
+  line-height: 21px;
+}
+.subtitle {
+  font-size: 13px;
+  line-height: 15px;
+}
+img {
+  width: 186px;
+  height: 114px;
+}
+.price {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 47px;
+  margin-bottom: 10px;
+}
+.buttonContainer {
+  border: 1px solid #fff;
+  width: 180px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: items;
+}
+.submitButton {
+  font-size: 18px;
+  line-height: 21px;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+}
